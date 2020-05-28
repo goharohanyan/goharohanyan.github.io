@@ -1,0 +1,111 @@
+body{
+    display: flex;
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.main-container {
+    border-radius: 3px;
+    overflow: hidden;
+    margin: 3px 200px 3px 300px;
+    width: 80%;
+    box-shadow: 0px 0px 7px 0px rgba(0,0,0,0.75);
+    border: 1px solid #2d2d2d;
+    background-color: white;
+    display: flex;
+    align-self: right;
+}
+
+.left-side {
+    color: white;
+    background-color: #2d2d2d;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.right-side {
+    color: #2d2d2d;
+    /* margin: 15px 15px 15px 0px; */
+    /* height: 100vh; */
+    background-color: white;
+    display: flex;
+    flex: 2;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+#img {
+    filter: grayscale(1);
+    width: 181px;
+    height: 181px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-right: 20px;
+    box-shadow: 0px 0px 7px 0px  rgba(0,0,0,0.75);
+}
+
+.left-rows{
+    margin-top: 15px;
+    width: 90%;
+    height: auto;
+    text-align: left;
+    margin-left: 25px;
+
+}
+
+.right-rows{
+    width: 90%;
+    height: auto;
+    text-align: left;
+    margin-left: 25px;
+}
+
+.left-titles{
+    font-weight: 100;
+    margin-right: 20px;
+    font-size: 20px;
+}
+
+.right-titles{
+    font-weight: 100;
+    margin-right: 20px;
+    font-size: 20px;
+}
+
+#name-surname{
+    text-align: center;
+    font-size: 35px;
+    margin-right: 20px;
+    margin-bottom: 0px;
+    color: #2d2d2d;
+}
+
+.left-side-horizontal-line{
+    border: 2px solid white;
+    border-radius: 5px;
+}
+
+.right-side-horizontal-line{
+    border: 2px solid #2d2d2d;
+    border-radius: 5px;
+}
+
+#edu-table{
+    font-size: 15px;
+}
+
+#fb-icon {
+    display: flex;
+    align-items: center;
+    color: white;
+    margin-bottom: 16px;
+    text-decoration: none;
+}
+
+.content-style{
+    font-style: normal;
+    font-weight:100;
+}
+
